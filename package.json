@@ -1,0 +1,23 @@
+{
+  "name": "solid-vite-yarn-boilerplate",
+  "packageManager": "yarn@4.1.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "^8.57.0",
+    "sass": "^1.75.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10",
+    "vite-plugin-solid": "^2.10.2"
+  },
+  "dependencies": {
+    "@types/node": "^20.12.7",
+    "solid-js": "^1.8.17"
+  }
+}
